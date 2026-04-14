@@ -2,7 +2,7 @@
 
 A complete full-stack application for user management with a modern React frontend and Node.js TypeScript backend API using SQLite.
 
-## 📋 Project Overview
+## Project Overview
 
 Avivo is composed of two main parts:
 
@@ -16,7 +16,7 @@ This project demonstrates best practices in:
 - Clean code principles
 - Minimal dependencies
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ npm run dev
 
 Both servers will automatically initialize. The backend creates `database.db` on first run with all seed data.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Avivo-Task/
@@ -88,7 +88,7 @@ Avivo-Task/
     └── README.md
 ```
 
-## 🎯 Features
+##  Features
 
 ### Frontend
 ✅ **User List Display** - Grid view with responsive layout
@@ -161,12 +161,12 @@ GET /api/health
 - **UI Library**: Chakra UI
 - **HTTP Client**: Axios
 
-## 📚 Documentation
+##  Documentation
 
 - [Backend README](./backend/README.md) - Backend setup and API documentation
 - [Frontend README](./frontend/README.md) - Frontend setup and component guide
 
-## 🔐 Security Features
+##  Security Features
 
 ✓ SQL Injection Prevention (Parameterized queries)
 ✓ CORS Support
@@ -174,7 +174,7 @@ GET /api/health
 ✓ Error handling without exposing sensitive info
 ✓ Type Safety with TypeScript
 
-## 📊 Database
+## Database
 
 ### SQLite
 - **Zero Installation** - Embedded database
@@ -190,7 +190,7 @@ GET /api/health
 - **Company**: companyName, companyTitle, companyDepartment, role
 - **Network**: domain, ip
 
-## 🎨 Component Architecture
+##  Component Architecture
 
 ### Frontend Components
 
@@ -211,7 +211,7 @@ App (Main)
         └── Delete Button
 ```
 
-## 🚀 Running in Production
+## Running in Production
 
 ### Backend Production Build
 ```bash
@@ -229,7 +229,7 @@ npm run preview
 # Serve dist/ folder with your web server
 ```
 
-## 📝 Environment Variables
+## Environment Variables
 
 Both have sensible defaults that work out of the box.
 
@@ -245,7 +245,7 @@ NODE_ENV=development           # development or production
 VITE_API_BASE_URL=http://localhost:5000/api
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Frontend Type Check
 ```bash
@@ -259,7 +259,7 @@ cd backend
 npm run build
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -283,7 +283,7 @@ npm install
 - Delete `backend/database.db`
 - Restart backend server - new database auto-creates
 
-## ✨ Why SQLite?
+## Why SQLite?
 
 - ✅ **Zero Setup** - No installation or configuration
 - ✅ **File-Based** - Single `database.db` file
@@ -292,7 +292,7 @@ npm install
 - ✅ **Good for Small-Medium Apps** - 10-100K users easily
 - ✅ **Easy to Deploy** - Just include the database file
 
-## 📈 Performance
+##  Performance
 
 ### Frontend
 - FCP: < 1s
@@ -304,18 +304,18 @@ npm install
 - Server startup: < 1s
 - Database size: ~100KB
 
-## 🤝 Contributing
+## Contributing
 
 1. Create feature branch
 2. Commit changes
 3. Push to branch
 4. Create Pull Request
 
-## 📄 License
+## License
 
 ISC
 
-## 📞 Support
+##  Support
 
 For issues:
 1. Check individual READMEs
@@ -324,7 +324,7 @@ For issues:
 4. Review console/server logs
 5. Delete database.db and restart if issues persist
 
-## 🎓 Learning Resources
+## Learning Resources
 
 - [React Documentation](https://react.dev)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
@@ -338,3 +338,4 @@ For issues:
 **Last Updated**: April 2026
 
 Built with ❤️ for Avivo
+
